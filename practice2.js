@@ -39,8 +39,8 @@ if(score<=100 && score>=85){
 // practice probelm 3 (1)
 var num1 = 13;
 var num2 = 79;
-var  num3 = 45;
-var  largest;
+const num3 = 45;
+let largest;
 
 // check the condition
 if(num1 >= num2 && num1 >= num3) {

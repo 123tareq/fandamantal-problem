@@ -8,7 +8,7 @@ console.log(shopkeeperRetun);
 
 var allSubjectNumber= 75.25+65+80+35.45+99.50;
 var average=allSubjectNumber/5;
-var fixdnumber= average.toFixed(2);
+var fixdNumber= average.toFixed(2);
 console.log(fixdnumber);
 
 // practice problem 3

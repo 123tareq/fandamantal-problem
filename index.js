@@ -1,50 +1,133 @@
-var num1=12;
-var num2=13;
-var totalAdiiton=num1+num2;
-console.log(totalAdiiton);
+// // math function
 
-var num3=10;
-var num4=5;
-var substruction=num3-num4;
-console.log(substruction);
+// console.log(Math.E);
+// console.log(Math.PI);
+// var n=4.999;
+// console.log(Math.abs(n));
+// console.log(Math.floor(n));
+// console.log(Math.ceil(n));
+// console.log(Math.round(n));
+// console.log(Math.max(100,200,300,400,500));
+// console.log(Math.min(100,200,300,400,500));
+// console.log(Math.pow(2,3));
+// console.log(Math.sqrt(9));
+// console.log(Math.sqrt(25));
+// console.log(Math.random());
+// console.log(Math.round(Math.random()*50+1));
 
-var num5=10;
-var num6=5;
-var multiplication= num5*num6;
-console.log(multiplication);
+// // date functon
+// var date =new Date();
+// console.log(date.toDateString());
+// console.log(date.toTimeString());
+// console.log(date.getDate());
+// console.log(date.getFullYear());
+// console.log(date.getHours());
+// console.log(date.getMonth());
+// console.log(date.getUTCMonth());
 
-var diviton1=25;
-var diviton2=3;
-var divitonResult=diviton1/diviton2;
-console.log(divitonResult);
+// // if ,else, else if conditon 
+
+// var a=5;
+// if(a%2===0){
+//     console.log(a+'is odd number');
+// }
+// if(a%2===1){
+//     console.log(a+'is ture');
+// }
+//  var age=20;
+//  var age2=13;
+//  if(age<age2){
+//     console.log("age is 13")
+//  }
+//  if(age>age2){
+//     console.log('age is 20');
+//  }
+
+//  var a=12;
+//  var  a2=13;
+//  if(a<a2){
+//    console.log("print");
+//  }else{
+//    console.log("else");
+//  }
+  
+//  let m=50;
+//   let m2 =60;
+//  if(m===m2){
+//    console.log("this is equal");
+//  }else if(m>=m2){
+//    console.log("this is not gratter than m2");
+//  }else{
+//    console.log("error");
+
+//  }
+ 
+//  function testnum(a){
+//   let result;
+//   if(a>0){
+//     result='positive';
+//   }
+//   else{
+//     result='no answer';
+//   }
+//   return result;
+//  }
+//  console.log(testnum(23));
+
+// //  switch statment
+
+// // var tody=date.getDay()
+// // switch(tody){
+// //    case 0: 
+// //    console.log("today is saturday");
+// //    break;
+// //    case 1:
+// //       console.log("today is sundy");
+// //       break;
+// //       case 2:
+// //          console.log('monday');
+// //          break;
+// //          case 3:
+// //           console.log("tuesday");
+
+// // }
+
+// // logical oparator
 
 
-var modulas1=12;
-var modulas2= 5;
-var modulasResult=modulas1%modulas2;
-console.log(modulasResult);
+// var number=12;
+// var number2=13;
+// if(number!=number2 && number>number2){
+//   console.log("thsi is ture");
+// }else{
+//   console.log("this is fals");
+// }
 
-// string to number convert lotrseint mathod
+// var digit=34;
+// if(0===digit && 0 !=digit){
+//   console.log("digit is 34");
+// }
+// // ternary oparator
 
-var stringKyword='12';
-var stringToNum= parseInt(stringKyword);
-console.log(typeof(stringToNum));
+// var name= n%2!=0?'even':'odd'
+// console.log(name);
 
-// number to string convert flotint mathod
+// var p=3;
+// var str=''
 
-var stingConvert=15;
-var text=stingConvert.toString();
-console.log(typeof(text));
+// if (n%2===0){
+//   str='even';
+// }else{
+//   str='odd';
+// }
+// console.log(str);
 
-// flot to int convert
-var flotNum=45.555;
-console.log(parseInt(flotNum));
 
-// fixed flot mathod
 
-var flotNumber=34.499999999999999;
-var fixedFlotNumber= flotNumber.toFixed(3);
-console.log(flotNumber);
+
+
+
+
 
 
 

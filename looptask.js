@@ -27,10 +27,10 @@ for(oddnuber=100; oddnuber<=820; oddnuber++){
 }
 
 
-// porblem 4
+// porblem 5
 //  Major defferince for and while loop is , if we have starting and endig valu than we will use for loop, on the other hand if we have only conditon then while loop will be the best choice.
 
-// problem 5
+// problem 6
 
 var arry=['a','b','c','d','e','f','g']
 var latter=0;
@@ -41,20 +41,20 @@ while(latter<=arry.length){
 }
 
 
-// problem 6
+// problem 7
 
 var cars=['Tasla','Nican','Bmw','Rols royls','Farari'];
 for(var a=0; a<=cars.length; a++){
     console.log(cars);
 }
 
-// problem 7
+// problem 8
 var mobile=['nokia 1100','semphony a 15','samsung j1','Lava','realme c2','Relme 8 pro'];
 for (var i=0; i<=mobile.length; i++){
     console.log(mobile);
 }
 
-// // problem  8
+// // problem  9
 
 // var booksPrice=[120,140,170,195,210,240,250,260,280,310];
 
